@@ -8,6 +8,15 @@ This is code I wrote for my Master's thesis, which compared the performance of a
 
 Contains several implementations using various SQL techniques to compute the statistics and learn the Bayesian network structure.
 
+## Dependencies
+
+- Oracle database - code was built and tested on Oracle 11.2 using these JVMs
+  - Oracle in-database JVM (JDK 1.6)
+  - External JVM (JDK 1.8)
+- Java libs
+  - ojdbc7.jar
+  - jopt-simple-5.0.3.jar
+
 ## References and sources
 
 1. The KDB algorithm was originally proposed in this paper:<br><br>Sahami, M. (1996). Learning Limited Dependence Bayesian Classifiers. In KDD-96: Proceedings of the Second International Conference on Knowledge Discovery and Data Mining (pp. 335-338). Portland, Oregon.
